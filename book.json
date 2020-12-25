@@ -1,0 +1,30 @@
+{
+    "title": "函数调用原理",
+    "author": "codercat",
+    "language": "zh-hans",
+    "plugins": [
+        "github",
+        "search",
+        "-sharing",
+        "anchors",
+        "highlight",
+        "code",
+        "hide-element"
+    ],
+    "pluginsConfig": {
+        "github": {
+          "url": "https://github.com/acodercat/function-call-principle"
+        },
+        "code": {
+            "copyButtons": false
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": false
+        }
+    }
+
+
+}
