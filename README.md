@@ -1,6 +1,4 @@
-# 函数调用原理
-
-本文通过的大量示意图从比较基础的概念开始阐述函数执行时堆栈的完整变化过程，最后通过一些具体例子来分析在X-64平台上函数的调用过程，从而理解函数调用原理。文章放在了[gitbook](https://acodercat.github.io/function-call-principle/)以供阅读。
+> 本文通过的大量示意图从比较基础的概念开始阐述函数执行时堆栈的完整变化过程，最后通过一些具体例子来分析在X-64平台上函数的调用过程，从而理解函数调用原理。文章放在了[gitbook](https://acodercat.github.io/function-call-principle/)以供阅读。
 
 
 
