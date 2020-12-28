@@ -214,12 +214,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10" data-path="stack-overflow-attack.html">
+        <li class="chapter " data-level="1.10" data-path="modify-stack-frame-data.html">
             
-                <a href="stack-overflow-attack.html">
+                <a href="modify-stack-frame-data.html">
             
                     
-                    栈溢出攻击
+                    手动修改栈帧数据
             
                 </a>
             
@@ -272,7 +272,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4FDD;&#x5B58;&#x4E0E;&#x6062;&#x590D;"><a name="&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4FDD;&#x5B58;&#x4E0E;&#x6062;&#x590D;" class="plugin-anchor" href="#&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4FDD;&#x5B58;&#x4E0E;&#x6062;&#x590D;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4FDD;&#x5B58;&#x4E0E;&#x6062;&#x590D;</h2>
+                                <h1 id="&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4FDD;&#x5B58;&#x4E0E;&#x6062;&#x590D;"><a name="&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4FDD;&#x5B58;&#x4E0E;&#x6062;&#x590D;" class="plugin-anchor" href="#&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4FDD;&#x5B58;&#x4E0E;&#x6062;&#x590D;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4FDD;&#x5B58;&#x4E0E;&#x6062;&#x590D;</h1>
 <blockquote>
 <p>&#x5728;&#x4EA7;&#x751F;<code>&#x51FD;&#x6570;&#x8C03;&#x7528;</code>&#x65F6;&#xFF0C;&#x6709;&#x53EF;&#x80FD;<code>&#x8C03;&#x7528;&#x8005;</code>&#x4F7F;&#x7528;&#x4E86;&#x67D0;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;<code>&#x88AB;&#x8C03;&#x7528;&#x8005;</code>&#x4E5F;&#x4F7F;&#x7528;&#x4E86;&#x8FD9;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x5E76;&#x5BF9;&#x4FEE;&#x6539;&#x4E86;&#x5176;&#x4E2D;&#x7684;&#x503C;&#x3002;&#x5982;&#x679C;&#x8C03;&#x7528;&#x7ED3;&#x675F;&#x540E;&#x8C03;&#x7528;&#x8005;&#x8FD8;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x5148;&#x524D;&#x8FD9;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x7684;&#x503C;&#xFF0C;&#x6B64;&#x65F6;&#x5C31;&#x4F1A;&#x5BFC;&#x81F4;<code>&#x8C03;&#x7528;&#x8005;</code>&#x7684;&#x72B6;&#x6001;<code>&#x906D;&#x5230;&#x7834;&#x574F;</code>&#x3002;&#x6240;&#x4EE5;&#x5728;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x65F6;&#x9700;&#x8981;&#x5BF9;&#x8FD9;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x7684;&#x503C;&#x8FDB;&#x884C;&#x4FDD;&#x5B58;&#xFF0C;&#x540C;&#x65F6;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x65F6;&#x518D;&#x628A;&#x5B83;&#x6062;&#x590D;&#x5230;<code>&#x8C03;&#x7528;&#x524D;&#x7684;&#x72B6;&#x6001;</code>&#x3002;</p>
 </blockquote>
@@ -344,7 +344,7 @@ pop(ax);
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"寄存器的保存与恢复","level":"1.5","depth":1,"next":{"title":"局部变量的存储","level":"1.6","depth":1,"path":"storage-of-local-variables.md","ref":"storage-of-local-variables.md","articles":[]},"previous":{"title":"数据传递","level":"1.4","depth":1,"path":"data-transfer.md","ref":"data-transfer.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","search","-sharing","anchors","highlight","code","hide-element"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/acodercat/function-call-principle"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"isRewritePageTitle":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"codercat","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"函数调用原理","language":"zh-hans","gitbook":"*"},"file":{"path":"save-and-restore-of-registers.md","mtime":"2020-12-25T03:52:35.530Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-25T05:44:18.017Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"寄存器的保存与恢复","level":"1.5","depth":1,"next":{"title":"局部变量的存储","level":"1.6","depth":1,"path":"storage-of-local-variables.md","ref":"storage-of-local-variables.md","articles":[]},"previous":{"title":"数据传递","level":"1.4","depth":1,"path":"data-transfer.md","ref":"data-transfer.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","search","-sharing","anchors","highlight","code","hide-element"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/acodercat/function-call-principle"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"isRewritePageTitle":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"codercat","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"函数调用原理","language":"zh-hans","gitbook":"*"},"file":{"path":"save-and-restore-of-registers.md","mtime":"2020-12-28T02:57:46.205Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-28T09:34:35.883Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
