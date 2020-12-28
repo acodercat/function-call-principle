@@ -1,8 +1,8 @@
-## 一个有趣的例子
+# 一个有趣的例子
 
 先看下这个例子的代码：
 
-```C
+```c
 void init_array() {
     int arr[10];
     for (int i = 0; i < 10; ++i) {
@@ -13,7 +13,7 @@ void init_array() {
 void print_array() {
     int arr[10];
     for (int i = 0; i < 10; ++i) {
-       printf("%d\t", arr[i]);
+       printf("%ld\t", arr[i]);
     }
 }
 

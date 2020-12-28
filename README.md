@@ -1,4 +1,8 @@
-> 本文通过的大量示意图从比较基础的概念开始阐述函数执行时堆栈的完整变化过程，最后通过一些具体例子来分析在X-64平台上函数的调用过程，从而理解函数调用原理。文章放在了[gitbook](https://acodercat.github.io/function-call-principle/)以供阅读。
+
+
+这是一篇讲述函数调用原理的文章，通过大量的示意图从比较基础的概念开始阐述函数调用时堆栈的完整变化过程，同时还会通过一个具体例子来分析在X-64平台上函数的调用过程，从而理解函数调用原理。最后会提供几个例子来发现C语言函数栈帧的一些有意思的行为。
+
+文章提供了[gitbook](https://acodercat.github.io/function-call-principle/)的阅读方式。
 
 
 
@@ -12,7 +16,7 @@
 * [函数栈帧](https://acodercat.github.io/function-call-principle/function-stack-frame.html)
 * [C语言函数栈帧实例](https://acodercat.github.io/function-call-principle/c-stack-frame-example.html)
 * [一个有趣的例子](https://acodercat.github.io/function-call-principle/interesting-example.html)
-* [栈溢出攻击](https://acodercat.github.io/function-call-principle/stack-overflow-attack.html)
+* [手动修改栈帧中的数据](https://acodercat.github.io/function-call-principle/modify-stack-frame-data.html)
 
 
 
