@@ -18,7 +18,7 @@
 * [函数栈帧](https://acodercat.github.io/function-call-principle/function-stack-frame.html)
 * [C语言函数栈帧实例](https://acodercat.github.io/function-call-principle/c-stack-frame-example.html)
 * [一个有趣的例子](https://acodercat.github.io/function-call-principle/interesting-example.html)
-* [手动修改栈帧中的数据](https://acodercat.github.io/function-call-principle/modify-stack-frame-data.html)
+* [手动修改栈帧数据](https://acodercat.github.io/function-call-principle/modify-stack-frame-data.html)
 
 
 
