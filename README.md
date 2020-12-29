@@ -10,15 +10,36 @@
 
 ## 目录
 
-* [前置知识](https://acodercat.github.io/function-call-principle/pre-knowledge.html)
-* [控制转移](https://acodercat.github.io/function-call-principle/control-transfer.html)
-* [数据传递](https://acodercat.github.io/function-call-principle/data-transfer.html)
-* [寄存器的保存与恢复](https://acodercat.github.io/function-call-principle/save-and-restore-of-registers.html)
-* [局部变量的存储](https://acodercat.github.io/function-call-principle/storage-of-local-variables.html)
-* [函数栈帧](https://acodercat.github.io/function-call-principle/function-stack-frame.html)
-* [C语言函数栈帧实例](https://acodercat.github.io/function-call-principle/c-stack-frame-example.html)
-* [一个有趣的例子](https://acodercat.github.io/function-call-principle/interesting-example.html)
-* [手动修改栈帧数据](https://acodercat.github.io/function-call-principle/modify-stack-frame-data.html)
+* [前置知识](https://acodercat.github.io/content/function-call-principle/pre-knowledge.html)
+* [内存中的栈](https://acodercat.github.io/content/function-call-principle/stack-in-memory.html)
+* [控制转移](https://acodercat.github.io/content/function-call-principle/control-transfer.html)
+* [数据传递](https://acodercat.github.io/content/function-call-principle/data-transfer.html)
+* [寄存器的保存与恢复](https://acodercat.github.io/content/function-call-principle/save-and-restore-of-registers.html)
+* [局部变量的存储](https://acodercat.github.io/content/function-call-principle/storage-of-local-variables.html)
+* [函数栈帧](https://acodercat.github.io/content/function-call-principle/function-stack-frame.html)
+* [C语言函数栈帧实例](https://acodercat.github.io/content/function-call-principle/c-stack-frame-example.html)
+* [一个有趣的例子](https://acodercat.github.io/content/function-call-principle/interesting-example.html)
+* [手动修改栈帧数据](https://acodercat.github.io/content/function-call-principle/modify-stack-frame-data.html)
+* [总结](https://acodercat.github.io/content/function-call-principle/summary.html)
+
+
+
+## 本文可以收获什么？
+
+* 函数间如何转移控制
+* 函数间如何传递数据
+* 栈帧的初始化与销毁
+* C/C++数组越界的危害
+* 为什么内联（inline）函数效率高
+* 为什么尽量用循环来代替递归调用
+* 为什么静态变量在函数返回后不会被释放
+* 什么是栈溢出攻击
+
+
+
+## 其他
+
+文中有一个重要的概念`内存对齐`没有提及，由于它不属于函数调用范畴之内，也就没有对它进行说明。我在构造示例时也避免了编译器为了内存对齐而出现一些额外指令，所以文中也见不到它的影子。如果你有兴趣可以通过网络去了解与它相关的内容。
 
 
 
@@ -26,7 +47,7 @@
 
 * 书籍：
 
-  《深入理解计算机系统》
+  《深入理解计算机系统》（第三版）
 
   《汇编语言》（王爽第三版）
 
