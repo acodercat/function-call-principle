@@ -11,16 +11,16 @@
 ## 目录
 
 * [前置知识](https://acodercat.github.io/function-call-principle/pre-knowledge.html)
-* [内存中的栈](https://acodercat.github.io/function-call-principle/stack-in-memory.html)
-* [控制转移](https://acodercat.github.io/function-call-principle/control-transfer.html)
-* [数据传递](https://acodercat.github.io/function-call-principle/data-transfer.html)
-* [寄存器的保存与恢复](https://acodercat.github.io/function-call-principle/save-and-restore-of-registers.html)
-* [局部变量的存储](https://acodercat.github.io/function-call-principle/storage-of-local-variables.html)
-* [函数栈帧](https://acodercat.github.io/function-call-principle/function-stack-frame.html)
-* [C语言函数栈帧实例](https://acodercat.github.io/function-call-principle/c-stack-frame-example.html)
-* [一个有趣的例子](https://acodercat.github.io/function-call-principle/interesting-example.html)
-* [手动修改栈帧数据](https://acodercat.github.io/function-call-principle/modify-stack-frame-data.html)
-* [总结](https://acodercat.github.io/function-call-principle/summary.html)
+* [内存中的栈](https://acodercat.github.io/content/function-call-principle/stack-in-memory.html)
+* [控制转移](https://acodercat.github.io/content/function-call-principle/control-transfer.html)
+* [数据传递](https://acodercat.github.io/content/function-call-principle/data-transfer.html)
+* [寄存器的保存与恢复](https://acodercat.github.io/content/function-call-principle/save-and-restore-of-registers.html)
+* [局部变量的存储](https://acodercat.github.io/content/function-call-principle/storage-of-local-variables.html)
+* [函数栈帧](https://acodercat.github.io/content/function-call-principle/function-stack-frame.html)
+* [C语言函数栈帧实例](https://acodercat.github.io/content/function-call-principle/c-stack-frame-example.html)
+* [一个有趣的例子](https://acodercat.github.io/content/function-call-principle/interesting-example.html)
+* [手动修改栈帧数据](https://acodercat.github.io/content/function-call-principle/modify-stack-frame-data.html)
+* [总结](https://acodercat.github.io/content/function-call-principle/summary.html)
 
 
 
