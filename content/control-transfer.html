@@ -12,28 +12,28 @@
         
         
     
-    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
                 
             
         
@@ -61,14 +61,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
     <link rel="next" href="data-transfer.html" />
     
     
-    <link rel="prev" href="pre-knowledge.html" />
+    <link rel="prev" href="stack-in-memory.html" />
     
 
     </head>
@@ -97,9 +97,9 @@
         
         
     
-        <li class="chapter " data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="../">
             
-                <a href="./">
+                <a href="../">
             
                     
                     介绍
@@ -123,7 +123,20 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="control-transfer.html">
+        <li class="chapter " data-level="1.3" data-path="stack-in-memory.html">
+            
+                <a href="stack-in-memory.html">
+            
+                    
+                    内存中的栈
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="control-transfer.html">
             
                 <a href="control-transfer.html">
             
@@ -136,7 +149,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="data-transfer.html">
+        <li class="chapter " data-level="1.5" data-path="data-transfer.html">
             
                 <a href="data-transfer.html">
             
@@ -149,7 +162,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="save-and-restore-of-registers.html">
+        <li class="chapter " data-level="1.6" data-path="save-and-restore-of-registers.html">
             
                 <a href="save-and-restore-of-registers.html">
             
@@ -162,7 +175,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="storage-of-local-variables.html">
+        <li class="chapter " data-level="1.7" data-path="storage-of-local-variables.html">
             
                 <a href="storage-of-local-variables.html">
             
@@ -175,7 +188,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="function-stack-frame.html">
+        <li class="chapter " data-level="1.8" data-path="function-stack-frame.html">
             
                 <a href="function-stack-frame.html">
             
@@ -188,7 +201,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="c-stack-frame-example.html">
+        <li class="chapter " data-level="1.9" data-path="c-stack-frame-example.html">
             
                 <a href="c-stack-frame-example.html">
             
@@ -201,7 +214,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="interesting-example.html">
+        <li class="chapter " data-level="1.10" data-path="interesting-example.html">
             
                 <a href="interesting-example.html">
             
@@ -214,12 +227,25 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10" data-path="modify-stack-frame-data.html">
+        <li class="chapter " data-level="1.11" data-path="modify-stack-frame-data.html">
             
                 <a href="modify-stack-frame-data.html">
             
                     
                     手动修改栈帧数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="summary.html">
+            
+                <a href="summary.html">
+            
+                    
+                    总结
             
                 </a>
             
@@ -257,7 +283,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >控制转移</a>
+        <a href=".." >控制转移</a>
     </h1>
 </div>
 
@@ -346,7 +372,7 @@
 
             
                 
-                <a href="pre-knowledge.html" class="navigation navigation-prev " aria-label="Previous page: 前置知识">
+                <a href="stack-in-memory.html" class="navigation navigation-prev " aria-label="Previous page: 内存中的栈">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -362,45 +388,45 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"控制转移","level":"1.3","depth":1,"next":{"title":"数据传递","level":"1.4","depth":1,"path":"data-transfer.md","ref":"data-transfer.md","articles":[]},"previous":{"title":"前置知识","level":"1.2","depth":1,"path":"pre-knowledge.md","ref":"pre-knowledge.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","search","-sharing","anchors","highlight","code","hide-element"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/acodercat/function-call-principle"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"isRewritePageTitle":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"codercat","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"函数调用原理","language":"zh-hans","gitbook":"*"},"file":{"path":"control-transfer.md","mtime":"2020-12-25T03:50:50.080Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-28T10:04:58.601Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"控制转移","level":"1.4","depth":1,"next":{"title":"数据传递","level":"1.5","depth":1,"path":"content/data-transfer.md","ref":"content/data-transfer.md","articles":[]},"previous":{"title":"内存中的栈","level":"1.3","depth":1,"path":"content/stack-in-memory.md","ref":"content/stack-in-memory.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","search","-sharing","anchors","highlight","code","hide-element"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/acodercat/function-call-principle"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"isRewritePageTitle":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"codercat","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"函数调用原理","language":"zh-hans","gitbook":"*"},"file":{"path":"content/control-transfer.md","mtime":"2020-12-25T03:50:50.080Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-29T03:36:03.048Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
-    <script src="gitbook/gitbook.js"></script>
-    <script src="gitbook/theme.js"></script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
     
         
-        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
 
