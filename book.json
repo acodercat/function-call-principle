@@ -10,7 +10,9 @@
         "highlight",
         "code",
         "hide-element",
-        "disqus"
+        "disqus",
+        "back-to-top-button",
+        "baidu-tongji"
     ],
     "pluginsConfig": {
         "github": {
@@ -18,6 +20,9 @@
         },
         "disqus": {
             "shortName": "codercat-gitbook"
+        },
+        "baidu-tongji": {
+            "token": "660beac8b34a0d6843ac8077fbe2555d"
         },
         "code": {
             "copyButtons": false
