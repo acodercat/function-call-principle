@@ -9,11 +9,15 @@
         "anchors",
         "highlight",
         "code",
-        "hide-element"
+        "hide-element",
+        "disqus"
     ],
     "pluginsConfig": {
         "github": {
           "url": "https://github.com/acodercat/function-call-principle"
+        },
+        "disqus": {
+            "shortName": "codercat-gitbook"
         },
         "code": {
             "copyButtons": false
