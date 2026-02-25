@@ -52,6 +52,8 @@ This visual guide explains how function calls work at the low level, using detai
 
 All diagrams were created with [Excalidraw](https://excalidraw.com/).
 
+Translation assisted by Claude (Anthropic).
+
 ## License
 
 MIT
